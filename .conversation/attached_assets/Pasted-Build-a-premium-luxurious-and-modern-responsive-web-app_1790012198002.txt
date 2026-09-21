@@ -1,0 +1,111 @@
+Build a premium, luxurious and modern responsive web app called **PurpleSync**.
+
+**Purpose:** PurpleSync is an information hub for BTS ARMY that brings important BTS-related information together in one place — voting opportunities, deadlines, schedules, performances, announcements and achievements.
+
+**Brand meaning:** Purple represents BTS and ARMY, while Sync represents staying connected and up-to-date.
+
+**Tagline:** “Where ARMY stays in sync.”
+
+### Design
+
+Create a sophisticated premium UI, NOT a typical fan website.
+
+Use:
+
+* Deep royal purple
+* Soft lavender accents
+* White / very light lavender backgrounds
+* Dark elegant text
+* Subtle borders and shadows
+* Modern premium typography
+* Spacious layouts
+* Smooth but minimal animations
+* Elegant cards
+* Mobile-first responsive design
+
+Avoid excessive emojis, glitter, hearts, neon effects or childish styling.
+
+### Pages
+
+**1. Home**
+
+* PurpleSync branding
+* Hero section with tagline
+* “ARMY Briefing” section showing the most important current items
+* Active voting preview
+* Upcoming events
+* Latest updates
+* Achievement preview
+
+**2. Voting**
+
+* Active votes
+* Upcoming votes
+* Ended votes
+* Deadline and countdown
+* Voting platform
+* Official voting button
+* Short description
+
+**3. Schedule**
+
+* BTS performances
+* Concerts
+* Award shows
+* Releases
+* Livestreams
+* Important events
+* Date/time and countdown
+
+**4. Achievements**
+
+* Beautiful chronological BTS achievement timeline
+* Categories for awards, charts, records and milestones
+
+**5. Updates**
+
+* Important BTS/ARMY information
+* Clearly show whether information is Official or Reported
+
+**6. Official Links**
+
+* Organize important official BTS/BIGHIT/Weverse/YouTube links
+
+### Navigation
+
+Desktop: Home | Voting | Schedule | Achievements | Updates
+
+Mobile bottom navigation: Home | Vote | Schedule | Updates | More
+
+### Important
+
+For this version use **dummy/sample data only**.
+
+DO NOT build:
+
+* Login
+* Sign up
+* Profile
+* Missions
+* XP
+* Badges
+* Leaderboard
+* Database
+* Google authentication
+* YouTube OAuth
+* External APIs
+* Real voting verification
+
+Focus ONLY on creating a beautiful, polished UI/UX prototype.
+
+### Technical
+
+Use a stable, Vercel-friendly React-based setup with minimal dependencies.
+
+Keep components reusable and code clean.
+
+Make sure the project includes a correct `package.json` with working `dev` and `build` scripts.
+
+The final project must be responsive on both mobile and desktop and should be structured so it can later be pushed to GitHub and deployed on Vercel.
+
+Do not add unnecessary packages or complicated backend functionality.

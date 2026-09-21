@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "PurpleSync"
+description = "A premium BTS ARMY information hub for staying current on voting, schedules, achievements, updates, and official links using a polished responsive interface."
+version = "1.0.0"
+id = "artifacts/purplesync"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21879
+
+[services.development]
+run = "pnpm --filter @workspace/purplesync run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/purplesync", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/purplesync/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21879"
+BASE_PATH = "/"
